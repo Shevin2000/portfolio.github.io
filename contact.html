@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact me</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Shevin</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li class="current"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <section class="skills" id="skills">
+  
+      <div class="skills-wrapper">
+        
+        <section class="contact" id="contact">
+          <h2>Get In Touch With Me</h2>
+          <div class="contact-form-container">
+            <div class="contact-form">
+              <form action="mailto:shevinmaduranga11@gmail.com" method="post" enctype="text/plain" onsubmit =" return submitForm()" id="data_form" name="form">
+                <div class="form-control">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required/>
+                </div>
+
+                <div class="form-control">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field" required />
+                </div>
+
+                <div class="form-control">
+                  <label for="message">Message</label>
+                  <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message" class="input-field" required></textarea>
+                </div>
+                <input type="submit" value="Submit" id="submit-btn" class="submit-btn"/>
+              </form>
+            </div>
+          </div>
+        </section>
+  
+        
+    </section>
+
+    <div class="socials">
+      <a href="https://twitter.com/shevinmaduranga" target="_blank"
+        ><img
+          src="icons/twitter.svg"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://instagram.com/xvin__00?igshid=MWRtcmNxM3ZsOWh4MA==" target="_blank"
+        ><img
+          src="icons/instagram-icon.svg"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/shevin-mitipolaarachchi-a55447252/" target="_blank"
+        ><img
+          src="icons/linkedin-icon.svg"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/Shevin2000" target="_blank"
+        ><img src="icons/github-icon.svg" alt="Github" class="socicon"
+      /></a>
+  </div>
+  
+
+  <footer>
+    <p class="copy">&copy; Copyright 2023</p>
+    <p>This is created in <time datetime="2023-11-13T18:00">November 13th, 2023 at 6:00 PM</time>.</p>
+    <p class="copy">
+      Built for ACSD CW by
+      <a href="https://instagram.com/xvin__00?igshid=MWRtcmNxM3ZsOWh4MA==" target="_blank"
+        >Shevin Mitipolaarchchi</a
+      >
+    </p>
+</footer>
+</body>
+</html>
