@@ -267,7 +267,7 @@ ul li.current a {
 .home-content h2 {
   font-size: 48px;
   color: rgba(242, 242, 242, 0.1); /* Colours (including at least one semi-transparent),  */
-  -webkit-text-stroke: 0.5px rgba(242, 242, 242, 0.5); /* Adjust the alpha value for stroke transparency */
+  -webkit-text-stroke: 0.4px rgba(82, 82, 82, 0.659); /* Adjust the alpha value for stroke transparency */
     background-image: linear-gradient(var(--primary-color), var(--primary-color)); /* Set the animation color to --primary-color */
     background-repeat: no-repeat;
     -webkit-background-clip: text;
